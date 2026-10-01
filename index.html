@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Aux délices du Gallois, le camion de pizzas de Wayne et Patou : recettes crème et tomate, emplacements et horaires.">
+    <title>Aux délices du Gallois | Pizzas de Wayne & Patou</title>
+    <link rel="icon" href="assets/logo-gallois.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/contenu-site.css">
+    <script src="js/donnees-site.js" defer></script><script src="js/contenu-modele.js" defer></script><script src="js/contenu-site.js" defer></script><script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Aux délices du Gallois — accueil">
+        <img src="assets/logo-gallois.svg" alt="">
+        <span class="brand-name">Aux délices<br>du Gallois</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/></svg>
+        <span class="toggle-label">Menu</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale">
+        <a href="index.html" aria-current="page">Accueil</a>
+        <a href="menu.html">Nos pizzas</a>
+        <a href="emplacements.html">Où nous trouver</a>
+        <a href="notre-histoire.html">Wayne &amp; Patou</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-order" href="tel:+33612345678" data-phone>Commander</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div class="container site-announcements" data-announcements role="region" aria-label="Informations du camion" aria-live="polite" hidden></div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <div class="hero-copy">
+            <p class="eyebrow">Le camion pizza qui régale le quartier</p>
+            <h1 id="hero-title">Des pizzas généreuses, <span class="text-red">deux bases</span>, mille bons moments.</h1>
+            <p class="lead">Wayne et Patou vous accueillent avec des recettes artisanales, sur base crème ou tomate, préparées avec soin et servies avec le sourire.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="menu.html">Découvrir le menu</a>
+              <a class="button button-secondary" href="emplacements.html">Voir les emplacements</a>
+            </div>
+            <p class="hero-note" data-today>Consultez le planning des emplacements pour connaître nos horaires.</p>
+          </div>
+          <div class="hero-art" aria-label="Illustration d’une pizza artisanale">
+            <div class="pizza" aria-hidden="true"></div>
+            <div class="pizza-slice" aria-hidden="true"></div>
+            <div class="hero-sticker">Pâte fraîche<br>chaque jour</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-info" aria-label="Informations pratiques">
+        <div class="container">
+          <div class="quick-item"><span>Précommande</span><strong>Par téléphone dès <span data-call-start>16h00</span></strong></div>
+          <div class="quick-item"><span>Service habituel</span><strong data-service-days>Du lundi au samedi</strong></div>
+          <div class="quick-item"><span>À retrouver</span><strong>Un lieu différent chaque jour</strong></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Deux caractères, un même plaisir</p>
+            <h2>Quel camp choisirez-vous ce soir&nbsp;?</h2>
+            <p>Deux façons de faire fondre les gourmands, avec des ingrédients sélectionnés et une pâte pétrie chaque jour.</p>
+          </div>
+          <div class="choice-grid">
+            <a class="choice-card cream-base" href="menu.html#creme">
+              <span class="tag">Douce &amp; onctueuse</span>
+              <h3>Base crème</h3>
+              <p>Des recettes rondes et réconfortantes, où la crème sublime fromages, légumes et charcuteries.</p>
+              <span class="arrow" aria-hidden="true">Voir les pizzas crème →</span>
+            </a>
+            <a class="choice-card tomato-base" href="menu.html#tomate">
+              <span class="tag">Franche &amp; ensoleillée</span>
+              <h3>Base tomate</h3>
+              <p>La vivacité de la tomate mijotée, accompagnée de généreuses garnitures et d’herbes parfumées.</p>
+              <span class="arrow" aria-hidden="true">Voir les pizzas tomate →</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tint">
+        <div class="container story-grid">
+          <div class="story-art" aria-label="Illustration du camion de pizzas de Wayne et Patou">
+            <div class="story-badge">Fait avec<br>cœur</div>
+            <div class="van"><div class="van-window"></div></div>
+          </div>
+          <div>
+            <p class="eyebrow">Une histoire de partage</p>
+            <h2>Wayne &amp; Patou, un couple derrière le comptoir.</h2>
+            <p>Wayne et Patou forment le couple qui vous accueille au camion Aux délices du Gallois. Découvrez leurs pizzas à base crème et à base tomate, et retrouvez-les à l’emplacement du jour.</p>
+            <a class="inline-link" href="notre-histoire.html">Faire connaissance avec nous →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-green">
+        <div class="container menu-cta">
+          <div>
+            <p class="eyebrow">Une question, une envie&nbsp;?</p>
+            <h2>Réservez votre pizza avant le coup de feu.</h2>
+            <p>Un petit appel et votre pizza vous attend, tout juste sortie du four.</p>
+          </div>
+          <a class="button button-primary" href="contact.html">Nous contacter</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand"><img src="assets/logo-gallois.svg" alt=""><div><div class="brand-name">Aux délices<br>du Gallois</div><p>Le camion pizza de Wayne &amp; Patou.<br>Des recettes généreuses, près de chez vous.</p></div></div>
+          <div><p class="footer-heading">Navigation</p><ul class="footer-links"><li><a href="menu.html">Nos pizzas</a></li><li><a href="emplacements.html">Emplacements</a></li><li><a href="notre-histoire.html">Notre histoire</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+          <div><p class="footer-heading">Informations</p><ul class="footer-links"><li><a href="mentions-legales.html">Mentions légales</a></li><li><a href="confidentialite.html">Confidentialité</a></li><li><a href="conditions-utilisation.html">Conditions d’utilisation</a></li><li><a href="politique-cookies.html">Politique cookies</a></li><li><a href="commande-remboursement.html">Commandes &amp; remboursements</a></li><li><a href="accessibilite.html">Accessibilité</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><span>© <span data-year>2026</span> Aux délices du Gallois</span><span>Site vitrine sans publicité ciblée ni suivi publicitaire.</span></div>
+      </div>
+    </footer>
+
+  </body>
+</html>

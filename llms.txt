@@ -1,0 +1,17 @@
+# Aux délices du Gallois
+
+Site vitrine en français pour un camion de pizzas tenu par le couple Wayne et Patou.
+
+## Pages
+
+- [Accueil](index.html) : présentation générale.
+- [Nos pizzas](menu.html) : pizzas à base crème et tomate, allergènes indicatifs.
+- [Où nous trouver](emplacements.html) : planning hebdomadaire et horaires.
+- [Wayne & Patou](notre-histoire.html) : présentation du couple qui tient le camion.
+- [Contact](contact.html) : formulaire qui prépare un e-mail dans le client de l’utilisateur ; pas d’envoi automatique.
+
+## Informations importantes
+
+- Pas de compte utilisateur, paiement en ligne, publicité, analytique ni traceur.
+- Les coordonnées, prix et emplacements d’exemple doivent être remplacés par les données réelles avant publication.
+- Les pages légales sont accessibles depuis le pied de page.

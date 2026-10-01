@@ -1,0 +1,32 @@
+/* Styles propres à la carte et à sa recherche. */
+[hidden] { display: none !important; }
+
+.menu-tools { border-bottom: 1px solid var(--line); padding: 2rem 0 1.25rem; }
+.menu-search { max-width: 850px; }
+.menu-search label { color: var(--green-dark); font-size: 1.2rem; }
+.menu-search-hint { font-size: .95rem; max-width: 680px; }
+.menu-search-row { align-items: center; display: flex; gap: .85rem; }
+.menu-search-row input { flex: 1; min-height: 48px; min-width: 0; }
+.menu-search-row input::placeholder { color: #50635c; opacity: 1; }
+.menu-search-row button { flex-shrink: 0; min-height: 48px; }
+.menu-search-count { color: var(--green-dark); font-weight: 700; margin: .8rem 0 0; min-height: 1.6em; }
+.menu-empty { padding-bottom: 3rem; padding-top: 3rem; }
+.menu-empty h2 { font-size: clamp(1.55rem, 4vw, 2rem); max-width: 700px; }
+.menu-empty .button { min-height: 48px; }
+.menu-information { padding-bottom: 3rem; padding-top: 1rem; }
+.menu-information .menu-note { margin-top: 0; }
+[data-menu-group] { scroll-margin-top: calc(var(--header-height) + 1rem); }
+.pizza-card > div { min-width: 0; }
+.pizza-card h3, .pizza-card p { overflow-wrap: anywhere; }
+.pizza-status { background: #fbe8ec; border: 1px solid var(--red-dark); border-radius: .4rem; color: var(--red-dark); display: inline-block; font-size: .82rem; font-weight: 700; margin-top: .65rem; padding: .25rem .5rem; }
+.pizza-photo { aspect-ratio: 1; border-radius: .6rem; height: 64px; object-fit: cover; width: 64px; }
+
+@media (max-width: 580px) {
+  .menu-search-row { align-items: stretch; flex-direction: column; }
+  .menu-search-row button { align-self: flex-start; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pizza-card { transition: none; }
+  .pizza-card:hover { transform: none; }
+}

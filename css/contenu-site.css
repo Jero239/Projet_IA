@@ -1,0 +1,20 @@
+/* Informations partagées et annonces à durée limitée. */
+[hidden] { display: none !important; }
+[id] { scroll-margin-top: calc(var(--header-height) + 24px); }
+.site-announcements { padding-top: 1.4rem; padding-bottom: 1.4rem; }
+.site-announcement { border: 1px solid var(--green); border-left: 5px solid var(--green); border-radius: .7rem; background: #f0f7f3; color: var(--ink); padding: 1.15rem 1.3rem; }
+.site-announcement + .site-announcement { margin-top: 1rem; }
+.site-announcement h2, .site-announcement h3 { font-size: 1.35rem; margin: 0 0 .5rem; }
+.site-announcement p:last-child { margin-bottom: 0; }
+.site-announcement.fermeture { border-color: var(--red); background: #fff0f3; }
+.site-announcement.emplacement { border-color: var(--blue); background: #eef3f9; }
+.site-announcement time { font-weight: 700; }
+.today-label, .schedule-exception { display: block; font-size: .8rem; font-weight: 700; margin-top: .6rem; }
+.schedule-card { overflow-wrap: anywhere; min-width: 0; }
+.schedule-card.today.closed { background: var(--red-dark); color: white; }
+.schedule-card.today.closed .schedule-day { color: white; }
+.hero-note { display: block; }
+.site-announcement, .hero-note { overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
